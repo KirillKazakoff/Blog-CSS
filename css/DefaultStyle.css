@@ -1,17 +1,11 @@
-/**
- * /* user style
- *
- * @format
- */
-
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: 'Open Sans';
+    font-family: 'Open Sans';
 }
 
 body,
@@ -26,29 +20,29 @@ h4,
 aside,
 select,
 textarea {
-	border: none;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	resize: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    resize: none;
 }
 
 select,
 textarea {
-	-webkit-appearance: none;
-	-moz-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 select:focus,
 textarea:focus,
 button:focus,
 input:focus {
-	outline: none;
+    outline: none;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 /* body {
