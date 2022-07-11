@@ -1,0 +1,283 @@
+@media(min-width: 641px) and (max-width: 1200px)
+{
+    /*header*/
+    .header
+    {
+        background-image: url('../images/banner-bg-tablet.jpg');
+        min-height: 390px;
+    }
+
+
+    /*header-container*/
+    .header-container
+    {
+        max-width: 768px;
+        padding-top: 35px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+
+    /*header-navigation*/
+    .header-logo
+    {
+        width: 160px;
+    }
+
+    .menu
+    {
+        display: flex;
+
+        justify-content: flex-end;
+        align-items: center;
+        flex: 1;
+    }
+
+    .menu-button
+    {
+        display: block;
+    }
+
+    .menu-list
+    {
+        display: none;
+
+        padding-left: 25px;
+
+        flex: 1;
+        justify-content: end;
+    }
+
+    .menu-list-item:nth-child(n + 2)
+    {
+        margin-left: 7%;
+    }
+
+    .header-description
+    {
+        line-height: 55px;
+
+        width: 87%;
+        padding-top: 100px;
+        padding-bottom: 125px;
+    }
+
+
+    /*aside-trands*/
+    .trand
+    {
+        width: 49.5%;
+    }
+
+    .trand:nth-of-type(n+2)
+    {
+        margin-left: 0;
+    }
+
+    .trand:nth-of-type(even)
+    {
+        margin-left: 5px;
+    }
+
+    .trand:nth-of-type(4n+1),
+    .trand:nth-of-type(4n+2)
+    {
+        margin-bottom: 5px;
+    }
+
+    /*content-wrapper*/
+    .content-wrapper
+    {
+        width: 100%;
+        max-width: 850px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+
+    /*main*/
+    .main-content
+    {
+        width: 50%;
+    }
+
+
+/*post*/
+    .post
+    {
+        flex-direction: column;
+    }
+
+    .post::after
+    {
+        display: block;
+
+        width: 100%;
+        height: 4px;
+        margin-top: 20px;
+
+        content: '';
+
+        background-color: #eee;
+    }
+
+    .post:nth-of-type(n + 6)
+    {
+        display: none;
+    }
+
+    .post:last-child::after
+    {
+        display: none;
+    }
+
+    .post:nth-child(n + 2)
+    {
+        margin-top: 40px;
+    }
+
+    .post-media
+    {
+        margin: 0;
+        width: 100%;
+    }
+
+    .post-content {
+    	width: 100%;
+    }
+
+    .post-special
+    {
+        margin-top: 35px;
+    }
+
+    .post-header
+    {
+        margin-bottom: 35px;
+    }
+
+
+/*side-bar*/
+    .aside-content
+    {
+        width: 37%;
+    }
+	/*products-section*/
+	    .products-section
+	    {
+	        flex-wrap: wrap;
+	    }
+
+	    .product
+	    {
+	        width: 49%;
+	    }
+
+	    .product:nth-of-type(n + 2)
+	    {
+	        margin: 0;
+	    }
+
+	    .product:nth-of-type(even)
+	    {
+	        margin-left: 2%;
+	    }
+
+	    .product-img
+	    {
+	        width: 85%;
+	    }
+
+/*popup*/
+	/*popup-radio*/
+	.radio-group-text::before {
+		width: 25px;
+		height: 25px;
+		background-size: 24px;
+	}
+
+
+/*font-sizes*/
+	.header-description {
+		font-size: 40px;
+	}
+    .aside-title
+    {
+        font-size: 14px;
+    }
+    .trands-title
+    {
+        font-size: 18px;
+    }
+    .trand-title
+    {
+        font-size: 17px;
+    }
+    .post-title
+    {
+        font-size: 17px;
+    }
+    .product-title
+    {
+        font-size: 17px;
+    }
+    .popup-title  {
+    	font-size: 18px;
+    }
+
+}
+
+@media(min-width: 641px) and (max-width: 768px)
+{
+    /*GivesRubberFontsBetweenPhoneAndTabletWidth*/
+    /*    .header-description
+    {
+        font-size: 4.5vw;
+    }
+
+    .menu-link
+    {
+        font-size: 1.6vw;
+    }*/
+
+    /*GivesPxFontsBetweenPhoneAndTabletWidth*/
+    .new-post-date
+    {
+        font-size: 11px;
+    }
+
+    .new-post-title
+    {
+        font-size: 12px;
+    }
+
+    .post-title
+    {
+        font-size: 16px;
+    }
+
+
+    /*ReconstructTagList*/
+    .together-tag-list
+    {
+        width: 180px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .together-tag-item:nth-child(3n + 2),
+    .together-tag-item:nth-child(n + 4)
+    {
+        margin: 0;
+    }
+
+    .together-tag-item:nth-child(n + 3)
+    {
+        margin-top: 5px;
+    }
+
+    .together-tag-item:nth-child(even)
+    {
+        margin-left: 5px;
+    }
+}
