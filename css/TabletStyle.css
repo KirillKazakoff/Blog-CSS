@@ -1,31 +1,24 @@
-@media(min-width: 641px) and (max-width: 1200px)
-{
+@media (min-width: 641px) and (max-width: 1200px) {
     /*header*/
-    .header
-    {
+    .header {
         background-image: url('../images/banner-bg-tablet.jpg');
         min-height: 390px;
     }
 
-
     /*header-container*/
-    .header-container
-    {
+    .header-container {
         max-width: 768px;
         padding-top: 35px;
         padding-right: 30px;
         padding-left: 30px;
     }
 
-
     /*header-navigation*/
-    .header-logo
-    {
+    .header-logo {
         width: 160px;
     }
 
-    .menu
-    {
+    .menu {
         display: flex;
 
         justify-content: flex-end;
@@ -33,13 +26,11 @@
         flex: 1;
     }
 
-    .menu-button
-    {
+    .menu-button {
         display: block;
     }
 
-    .menu-list
-    {
+    .menu-list {
         display: none;
 
         padding-left: 25px;
@@ -48,13 +39,11 @@
         justify-content: end;
     }
 
-    .menu-list-item:nth-child(n + 2)
-    {
+    .menu-list-item:nth-child(n + 2) {
         margin-left: 7%;
     }
 
-    .header-description
-    {
+    .header-description {
         line-height: 55px;
 
         width: 87%;
@@ -62,54 +51,43 @@
         padding-bottom: 125px;
     }
 
-
     /*aside-trands*/
-    .trand
-    {
+    .trand {
         width: 49.5%;
     }
 
-    .trand:nth-of-type(n+2)
-    {
+    .trand:nth-of-type(n + 2) {
         margin-left: 0;
     }
 
-    .trand:nth-of-type(even)
-    {
+    .trand:nth-of-type(even) {
         margin-left: 5px;
     }
 
-    .trand:nth-of-type(4n+1),
-    .trand:nth-of-type(4n+2)
-    {
+    .trand:nth-of-type(4n + 1),
+    .trand:nth-of-type(4n + 2) {
         margin-bottom: 5px;
     }
 
     /*content-wrapper*/
-    .content-wrapper
-    {
+    .content-wrapper {
         width: 100%;
         max-width: 850px;
         padding-right: 5%;
         padding-left: 5%;
     }
 
-
     /*main*/
-    .main-content
-    {
+    .main-content {
         width: 50%;
     }
 
-
-/*post*/
-    .post
-    {
+    /*post*/
+    .post {
         flex-direction: column;
     }
 
-    .post::after
-    {
+    .post::after {
         display: block;
 
         width: 100%;
@@ -121,114 +99,94 @@
         background-color: #eee;
     }
 
-    .post:nth-of-type(n + 6)
-    {
+    .post:nth-of-type(n + 6) {
         display: none;
     }
 
-    .post:last-child::after
-    {
+    .post:last-child::after {
         display: none;
     }
 
-    .post:nth-child(n + 2)
-    {
+    .post:nth-child(n + 2) {
         margin-top: 40px;
     }
 
-    .post-media
-    {
+    .post-media {
         margin: 0;
         width: 100%;
     }
 
     .post-content {
-    	width: 100%;
+        width: 100%;
     }
 
-    .post-special
-    {
+    .post-special {
         margin-top: 35px;
     }
 
-    .post-header
-    {
+    .post-header {
+        margin-top: 5px;
         margin-bottom: 35px;
     }
 
-
-/*side-bar*/
-    .aside-content
-    {
+    /*side-bar*/
+    .aside-content {
         width: 37%;
     }
-	/*products-section*/
-	    .products-section
-	    {
-	        flex-wrap: wrap;
-	    }
+    /*products-section*/
+    .products-section {
+        flex-wrap: wrap;
+    }
 
-	    .product
-	    {
-	        width: 49%;
-	    }
+    .product {
+        width: 49%;
+    }
 
-	    .product:nth-of-type(n + 2)
-	    {
-	        margin: 0;
-	    }
+    .product:nth-of-type(n + 2) {
+        margin: 0;
+    }
 
-	    .product:nth-of-type(even)
-	    {
-	        margin-left: 2%;
-	    }
+    .product:nth-of-type(even) {
+        margin-left: 2%;
+    }
 
-	    .product-img
-	    {
-	        width: 85%;
-	    }
+    .product-img {
+        width: 85%;
+    }
 
-/*popup*/
-	/*popup-radio*/
-	.radio-group-text::before {
-		width: 25px;
-		height: 25px;
-		background-size: 24px;
-	}
+    /*popup*/
+    /*popup-radio*/
+    .radio-group-text::before {
+        width: 25px;
+        height: 25px;
+        background-size: 24px;
+    }
 
-
-/*font-sizes*/
-	.header-description {
-		font-size: 40px;
-	}
-    .aside-title
-    {
+    /*font-sizes*/
+    .header-description {
+        font-size: 40px;
+    }
+    .aside-title {
         font-size: 14px;
     }
-    .trands-title
-    {
+    .trands-title {
         font-size: 18px;
     }
-    .trand-title
-    {
+    .trand-title {
         font-size: 17px;
     }
-    .post-title
-    {
+    .post-title {
         font-size: 17px;
     }
-    .product-title
-    {
+    .product-title {
         font-size: 17px;
     }
-    .popup-title  {
-    	font-size: 18px;
+    .popup-title {
+        font-size: 18px;
     }
-
 }
 
-@media(min-width: 641px) and (max-width: 768px)
-{
+@media (min-width: 641px) and (max-width: 768px) {
     /*GivesRubberFontsBetweenPhoneAndTabletWidth*/
     /*    .header-description
     {
@@ -241,43 +199,35 @@
     }*/
 
     /*GivesPxFontsBetweenPhoneAndTabletWidth*/
-    .new-post-date
-    {
+    .new-post-date {
         font-size: 11px;
     }
 
-    .new-post-title
-    {
+    .new-post-title {
         font-size: 12px;
     }
 
-    .post-title
-    {
+    .post-title {
         font-size: 16px;
     }
 
-
     /*ReconstructTagList*/
-    .together-tag-list
-    {
+    .together-tag-list {
         width: 180px;
         margin-right: auto;
         margin-left: auto;
     }
 
     .together-tag-item:nth-child(3n + 2),
-    .together-tag-item:nth-child(n + 4)
-    {
+    .together-tag-item:nth-child(n + 4) {
         margin: 0;
     }
 
-    .together-tag-item:nth-child(n + 3)
-    {
+    .together-tag-item:nth-child(n + 3) {
         margin-top: 5px;
     }
 
-    .together-tag-item:nth-child(even)
-    {
+    .together-tag-item:nth-child(even) {
         margin-left: 5px;
     }
 }
