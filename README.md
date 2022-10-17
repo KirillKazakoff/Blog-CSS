@@ -1,7 +1,11 @@
 # CSS-Diploma
-Ссылка на сайт: [GitHubPages][gitPages]
+
+> ## Ссылка на сайт: [**GitHubPages**][GitHubPages]
+
+</br>
+
 
 ## Описание
-Это первая дипломная работа. Кроме верстки здесь ничего нет. Верстка адаптивная, без применения каких-либо методологий...
+Это сайт HTML и CSS. Кроме верстки здесь ничего нет. Верстка адаптивная, без применения каких-либо методологий...
 
-[gitPages]: <https://kirillkazakoff.github.io/Blog-CSS/>
+[GitHubPages]: <https://kirillkazakoff.github.io/Blog-CSS/>
